@@ -45,12 +45,9 @@ char *_strdup(const char *str)
 	{
 		i++;
 	}
-	
 	ptr = malloc(sizeof(char) * i + 1);
-	
 	if (ptr == NULL)
 		return (NULL);
-	
 	j = 0;
 	while (str[j] != '\0')
 	{
